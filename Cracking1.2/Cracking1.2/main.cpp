@@ -11,8 +11,6 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-
-//    void swap(char &a, char &b);
     
     void reverse1(char *s);
     void reverse2(char *s);
