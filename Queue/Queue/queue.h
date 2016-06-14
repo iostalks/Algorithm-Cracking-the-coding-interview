@@ -12,3 +12,22 @@
 #include <stdio.h>
 
 #endif /* queue_h */
+
+
+
+#define QUEUE_TYPE int
+
+void create_queue(size_t size);
+
+void destroy_queue();
+
+void insert(QUEUE_TYPE value);
+
+void delete();
+
+QUEUE_TYPE first();
+
+int is_empty();
+
+int is_full();
+
