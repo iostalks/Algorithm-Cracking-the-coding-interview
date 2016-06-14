@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-               BuildableName = "SortAlgorithm"
-               BlueprintName = "SortAlgorithm"
-               ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+               BlueprintIdentifier = "FE1218B51D0BB3C700A602FF"
+               BuildableName = "Queue"
+               BlueprintName = "Queue"
+               ReferencedContainer = "container:Queue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE1218B51D0BB3C700A602FF"
+            BuildableName = "Queue"
+            BlueprintName = "Queue"
+            ReferencedContainer = "container:Queue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE1218B51D0BB3C700A602FF"
+            BuildableName = "Queue"
+            BlueprintName = "Queue"
+            ReferencedContainer = "container:Queue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE1218B51D0BB3C700A602FF"
+            BuildableName = "Queue"
+            BlueprintName = "Queue"
+            ReferencedContainer = "container:Queue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-               BuildableName = "SortAlgorithm"
-               BlueprintName = "SortAlgorithm"
-               ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+               BlueprintIdentifier = "FE12189B1D0A4E1800A602FF"
+               BuildableName = "FFStack"
+               BlueprintName = "FFStack"
+               ReferencedContainer = "container:FFStack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE12189B1D0A4E1800A602FF"
+            BuildableName = "FFStack"
+            BlueprintName = "FFStack"
+            ReferencedContainer = "container:FFStack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE12189B1D0A4E1800A602FF"
+            BuildableName = "FFStack"
+            BlueprintName = "FFStack"
+            ReferencedContainer = "container:FFStack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE6A96641CE02D160052ADA8"
-            BuildableName = "SortAlgorithm"
-            BlueprintName = "SortAlgorithm"
-            ReferencedContainer = "container:SortAlgorithm.xcodeproj">
+            BlueprintIdentifier = "FE12189B1D0A4E1800A602FF"
+            BuildableName = "FFStack"
+            BlueprintName = "FFStack"
+            ReferencedContainer = "container:FFStack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
