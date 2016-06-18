@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE9147651D06AD530041FB99"
+               BlueprintIdentifier = "FE5632051D129C8400E80663"
                BuildableName = "Cracking3.4"
                BlueprintName = "Cracking3.4"
                ReferencedContainer = "container:Cracking3.4.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE9147651D06AD530041FB99"
+            BlueprintIdentifier = "FE5632051D129C8400E80663"
             BuildableName = "Cracking3.4"
             BlueprintName = "Cracking3.4"
             ReferencedContainer = "container:Cracking3.4.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE9147651D06AD530041FB99"
+            BlueprintIdentifier = "FE5632051D129C8400E80663"
             BuildableName = "Cracking3.4"
             BlueprintName = "Cracking3.4"
             ReferencedContainer = "container:Cracking3.4.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE9147651D06AD530041FB99"
+            BlueprintIdentifier = "FE5632051D129C8400E80663"
             BuildableName = "Cracking3.4"
             BlueprintName = "Cracking3.4"
             ReferencedContainer = "container:Cracking3.4.xcodeproj">

@@ -1,15 +1,15 @@
 //
-//  main.c
+//  main.cpp
 //  Cracking3.4
 //
-//  Created by Jone on 16/6/7.
+//  Created by Jone on 16/6/16.
 //  Copyright © 2016年 Jone. All rights reserved.
 //
 
-#include <stdio.h>
+#include <iostream>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    std::cout << "Hello, World!\n";
     return 0;
 }
