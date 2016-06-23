@@ -17,16 +17,18 @@ int main(int argc, const char * argv[]) {
     void selectSort(int a[], int n);
     void inserSort(int a[], int n);
     void quickSort(int a[], int left, int right);
-    
+    void merge_sort(int arr[], const int len);
     
     int sortArr[] = {12, 9, 8, 5, 2, 4};
 //    popupSort(popupSortArr, 6);
 //    selectSort(sortArr, 6);
 //    inserSort(sortArr, 6);
-    quickSort(sortArr, 0, 5);
+//    quickSort(sortArr, 0, 5);
+    merge_sort(sortArr, 6);
     
     printArr(sortArr, 6);
-    
+    int amm[100];
+    printf("%lu", sizeof(amm));
     
     void swapNumber(int &a, int &b);
     int a = 5, b = 6;
@@ -103,12 +105,8 @@ void inserSort(int a[], int n)
 int parrttion(int a[], int left, int right)
 {
     if (a == NULL && left >= right) return NULL;
-    
-    void swapElement(int arr[], int i, int j);
-    
+
     int pivotKey = a[left];
-//    int pivotPointer = left;
-    
     while (left < right) {
         while (left < right && a[right] >= pivotKey) {
             right--;
@@ -118,13 +116,9 @@ int parrttion(int a[], int left, int right)
             left++;
         }
         a[right] = a[left];
-        
-//            swapElement(a, left, right);
     }
     
     a[left] = pivotKey;
-    
-//    swapElement(a, pivotPointer, left);
     return left;
 }
 
@@ -153,6 +147,35 @@ void swapNumber(int &a, int &b)
 
 
 // 归并排序
+void merge_sort_recursive(int arr[], int reg[], int start, int end) {
+//    p_merge(int arr2[], int reg2[], int start2, int mid2, int end2);
+    if (start >= end) {return;};
+    int len = end - start, mid = (len >> 1) + start;
+    int start1 = start, end1 = mid;
+    int start2 = mid + 1, end2 = end;
+    merge_sort_recursive(arr, reg, start1, end1);
+    merge_sort_recursive(arr, reg, start2, end2);
+    
+    int k = start;
+    while (start1 <= end1 && start2 <= end2) {
+        reg[k++] = arr[start1] < arr[start2] ? arr[start1++] : arr[start2++];
+    }
+    while (start1 <= end1) {
+        reg[k++] = arr[start1++];
+    }
+    while (start2 <= end2) {
+        reg[k++] = arr[start2++];
+    }
+    
+    for (k = start; k <= end; ++k) {
+        arr[k] = reg[k];
+    }
+}
+
+void merge_sort(int arr[], const int len) {
+    int reg[len];
+    merge_sort_recursive(arr, reg, 0, len-1);
+}
 
 
 // 计数排序
@@ -165,7 +188,6 @@ void swapNumber(int &a, int &b)
 
 
 #pragma mark - help
-
 
 void swapElement(int arr[], int i, int j)
 {
